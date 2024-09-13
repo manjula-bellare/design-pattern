@@ -16,7 +16,6 @@ public class CustomerOrder implements Subject {
     public void removeObserver(Observer observer) {
         observers.remove(observer);
     }
-
     @Override
     public void notifyObservers() {
         for (Observer observer : observers) {

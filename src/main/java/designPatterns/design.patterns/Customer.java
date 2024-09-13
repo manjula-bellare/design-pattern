@@ -11,6 +11,7 @@ public class Customer implements Observer {
     public void update(String orderStatus) {
         // to send email, sms notifications
     }
+
 }
 
 

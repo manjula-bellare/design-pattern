@@ -5,11 +5,9 @@ public class TransactionDirector {
     public TransactionDirector(Transaction transaction) {
         this.transaction = transaction;
     }
-
     public void commitTransaction(boolean isDeposit, double amount) {
         if(isDeposit) {
             transaction.commitTransaction(amount);
         }
-
     }
 }

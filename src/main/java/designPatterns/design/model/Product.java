@@ -11,7 +11,6 @@ public class Product {
 
     public Product(String name, String id, double price) {
     }
-
     public int getItemAvailableCount() {
         return itemAvailableCount;
     }

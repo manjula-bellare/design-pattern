@@ -10,6 +10,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class DesignPatternsApplication {
     public static void main(String[] args) {
         SpringApplication.run(DesignPatternsApplication.class, args);
+
         // Builder pattern
         DepositTransactionBuilder depositTransactionBuilder = new DepositTransactionBuilder(new Account());
         TransactionDirector director = new TransactionDirector(depositTransactionBuilder);

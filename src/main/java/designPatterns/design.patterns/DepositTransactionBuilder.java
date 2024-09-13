@@ -11,4 +11,5 @@ public class DepositTransactionBuilder implements Transaction {
     public double getBalanceAmount() {
         return account.getBalanceAmount();
     }
+
 }

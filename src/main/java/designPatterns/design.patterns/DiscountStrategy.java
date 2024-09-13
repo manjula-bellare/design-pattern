@@ -8,4 +8,5 @@ public class DiscountStrategy {
     public double getDiscountedPrice(double amount) {
         return discount.applyDiscount(amount);
     }
+
 }

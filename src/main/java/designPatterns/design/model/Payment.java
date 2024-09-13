@@ -8,4 +8,5 @@ public abstract class Payment {
     private PaymentStatus status;
     private Discount discount;
     public abstract PaymentStatus submitPayment();
+
 }
